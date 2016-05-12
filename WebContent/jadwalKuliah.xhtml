@@ -59,8 +59,8 @@
                             <li>
                                 <a href="#"><span class="glyphicon glyphicon-refresh"></span> Perwalian</a>
                             </li>
-                            <li>
-                                <a href="#"><span class="glyphicon glyphicon-calendar"></span> Jadwal</a>
+                            <li class="active">
+                                <a href=""><span class="glyphicon glyphicon-calendar"></span> Jadwal</a>
                             </li>
                             <li>
                                 <a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
@@ -74,62 +74,135 @@
 <!--    end header-->
     
 	<div class="container">
-		<div class="col-md-4">
 			<div class="row">
-				<div class="col-md-12">
-					<h3>Dashboard</h3>
+				<div class="col-md-3">
+					<h3>Mahasiswa</h3>
+                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-body form-group">
+                                                <table>
+                                                    <tr>
+                                                        <td>Nama</td>
+                                                        <td><input type="text" class="form-control" placeholder="Nama" /></td>
+                                                    </tr>
+                                                    <br/>
+                                                    <tr>
+                                                        <td>NRP</td>
+                                                        <td><input type="text" class="form-control" placeholder="Nomor Pokok Mahasiswa"/></td>
+                                                    </tr>
+                                                    <br/>
+                                                    <tr>
+                                                        <td>Semester</td>
+                                                        <td>
+                                                            <select class="form-control">
+                                                                <option>1</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                                <option>6</option>
+                                                                <option>7</option>
+                                                                <option>8</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <br/>
+                                                    <tr>
+                                                        <td>Tahun Ajaran </td>
+                                                        <td>
+                                                            <select class="form-control">
+                                                                <option>2009</option>
+                                                                <option>2010</option>
+                                                                <option>2011</option>
+                                                                <option>2012</option>
+                                                                <option>2013</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                    <br/>
+                                                    <tr>
+                                                        <td>Foto</td>
+                                                        <td>
+                                                            <img alt="Foto" src="resources/img/profil-picture.png" class="logo-footer"/>
+                                                        </td>
+                                                    </tr>
+                                                    <br/>
+                                                </table>
+                                            </div>
+                                        </div>
 				</div>
-			</div>
-			<div class="row">
-				<!-- UNTUK SIDEBAR -->
-				<div class="col-md-12">
-					<nav class="navbar navbar-default " role="navigation">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse"
-							data-target="#navbar-collapsible2">
-							<span class="sr-only">Toggle navigation</span> <span
-								class="icon-bar"></span> <span class="icon-bar"></span> <span
-								class="icon-bar"></span>
-						</button>
-					</div>
-					<br />
-					<div class="navbar-collapse collapse" id="navbar-collapsible2">
-						<br />
-						<div class="panel-group" id="panel-802513">
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<a class="panel-title collapsed" data-toggle="collapse"
-										data-parent="#panel-802513" href="#panel-element-829197">Dosen
-										Pengajar</a>
-								</div>
-								<div id="panel-element-829197" class="panel-collapse collapse">
-									<a href="semuaDosen.jsf"><div class="panel-body">Daftar
-											Dosen</div></a> <a href="inputDosen.jsf"><div class="panel-body">Tambah
-											Dosen</div></a>
-								</div>
-							</div>
-						</div>
-						<div class="panel-group" id="panel-802513">
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<a class="panel-title collapsed" data-toggle="collapse"
-										data-parent="#panel-802513" href="#panel-element-829197">Dosen
-										Pengajar</a>
-								</div>
-								<div id="panel-element-829197" class="panel-collapse collapse">
-									<a href="semuaDosen.jsf"><div class="panel-body">Daftar
-											Dosen</div></a> <a href="inputDosen.jsf"><div class="panel-body">Tambah
-											Dosen</div></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					</nav>
+                            
+                            <div class="col-md-9">
+					<h3>Jadwal Kuliah</h3>
+                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">Senin</div>
+                                            <div class="panel-body">
+<!--                                                <table border="3" cellpadding="10">
+                                                    <tr align="center">
+                                                        <th>No</th>
+                                                        <th>Jam</th>
+                                                        <th>Ruang</th>
+                                                        <th>Kode MK</th>
+                                                        <th>Mata Kuliah</th>
+                                                        <th>Kelas</th>
+                                                        <th>SKS</th>
+                                                        <th>Prodi</th>
+                                                    </tr>
+                                                    
+                                                    <tr align="center">
+                                                        <td>1</td>
+                                                            <td>07.00-09.00</td>
+                                                            <td>SB401</td>
+                                                            <td>IT220</td>
+                                                            <td>Pemrograman Web 1</td>
+                                                            <td>A</td>
+                                                            <td>3</td>
+                                                            <td>Informatika</td>
+                                                        </td>
+                                                    </tr>
+                                                </table>-->
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">Selasa</div>
+                                            <div class="panel-body">
+                                                tab
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">Rabu</div>
+                                            <div class="panel-body">
+                                                Panel conte nt
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">Kamis</div>
+                                            <div class="panel-body">
+                                                Panel content
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">Jum'at</div>
+                                            <div class="panel-body">
+                                                Panel content
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">Sabtu</div>
+                                            <div class="panel-body">
+                                                Panel content
+                                            </div>
+                                        </div>
+                                        
 				</div>
-				<!-- END SIDEBAR -->
-			</div>
-		</div>
-		<div class="col-md-8">
+                        </div>
+<!--		<div class="col-md-7">
 			<div class="row">
 				<div class="col-md-12">
 					<center>
@@ -138,7 +211,7 @@
 				</div>
 			</div>
 
-			<!-- ROW UNTUK FORM -->
+			 ROW UNTUK FORM 
 			<div class="row">
 				<div class="col-md-3"></div>
 				<div class="col-md-6">
@@ -209,7 +282,7 @@
 				<div class="col-md-3"></div>
 			</div>
 
-		</div>
+		</div>-->
 	</div>
         
 <!--        footer-->
